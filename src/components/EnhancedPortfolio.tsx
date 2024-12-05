@@ -709,7 +709,7 @@ export default function EnhancedPortfolio() {
                 >
                   Hi, <span className='text-green-500'>I'm</span>{' '}
                   <span className='relative'>
-                    Sandeep Makwana
+                    Doan Phan
                     <motion.span
                       className='absolute -bottom-2 left-0 w-full h-1 bg-green-500/20'
                       initial={{ width: 0 }}
@@ -781,22 +781,22 @@ export default function EnhancedPortfolio() {
                   {[
                     {
                       icon: Github,
-                      href: 'https://github.com/isandeepMakwana',
+                      href: 'https://github.com/yanmad27',
                       label: 'GitHub',
                     },
                     {
                       icon: Linkedin,
-                      href: 'https://www.linkedin.com/in/sandeepmakwana',
+                      href: 'https://www.linkedin.com/in/yanmad27',
                       label: 'LinkedIn',
                     },
                     {
                       icon: Code2,
-                      href: 'https://leetcode.com/isandeepMakwana',
+                      href: 'https://leetcode.com/yanmad27',
                       label: 'LeetCode',
                     },
                     {
                       icon: Mail,
-                      href: 'mailto:sandeepmakwana.work@gmail.com',
+                      href: 'mailto:yanmad27@gmail.com',
                       label: 'Email',
                     },
                   ].map((social, index) => (
@@ -856,19 +856,19 @@ export default function EnhancedPortfolio() {
                         <span>
                           Hi! I'm{' '}
                           <span className='text-green-500 font-semibold'>
-                            Sandeep Makwana
+                            Doan Phan
                           </span>
                           , a{' '}
                           <span className='text-blue-400 font-semibold'>
-                            Software Engineer II
+                            Software Engineer
                           </span>{' '}
-                          at ConsultAdd.
+                          at Silentium.
                         </span>
                       </div>
                       <div className='flex gap-4 items-center hover:bg-zinc-800/50 p-2 rounded transition-colors'>
                         <span className='text-zinc-600 select-none'>02</span>
                         <span>
-                          With <span className='text-yellow-500'>2+ years</span>{' '}
+                          With <span className='text-yellow-500'>5+ years</span>{' '}
                           of experience in building
                           <span className='text-purple-400'>
                             {' '}
@@ -901,7 +901,7 @@ export default function EnhancedPortfolio() {
                           </span>
                         </span>
                       </div>
-                      <div className='flex gap-4 items-center hover:bg-zinc-800/50 p-2 rounded transition-colors'>
+                      {/* <div className='flex gap-4 items-center hover:bg-zinc-800/50 p-2 rounded transition-colors'>
                         <span className='text-zinc-600 select-none'>05</span>
                         <span>
                           Recognized as{' '}
@@ -909,7 +909,7 @@ export default function EnhancedPortfolio() {
                             Employee of the Month 7 times
                           </span>
                         </span>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                 </Window>
@@ -924,14 +924,13 @@ export default function EnhancedPortfolio() {
                         </h3>
                         <div className='flex flex-wrap gap-3'>
                           {[
-                            'Python',
+                            'Go',
                             'JavaScript',
                             'TypeScript',
-                            'C',
-                            'C++',
                             'SQL',
+                            'Postgres',
+                            'MongoDB',
                             'Bash',
-                            'Java',
                           ].map((skill) => (
                             <motion.span
                               key={skill}
@@ -951,14 +950,12 @@ export default function EnhancedPortfolio() {
                         </h3>
                         <div className='flex flex-wrap gap-3'>
                           {[
-                            'Django',
-                            'Flask',
+                            'NextJS',
+                            'NestJS',
                             'FastAPI',
                             'React',
                             'Tailwind',
-                            'Pytest',
-                            'Pandas',
-                            'NumPy',
+                            'Antd',
                           ].map((skill) => (
                             <motion.span
                               key={skill}
@@ -1151,10 +1148,10 @@ export default function EnhancedPortfolio() {
                             isDarkMode ? 'text-white' : 'text-black'
                           }`}
                         >
-                          Software Engineer II
+                          Software Engineer
                         </h3>
                         <span className='text-green-500 font-mono text-sm'>
-                          Jul 2022 - Present
+                          Jan 2023 - Present
                         </span>
                       </div>
                       <div className='flex items-center gap-2'>
@@ -1163,7 +1160,7 @@ export default function EnhancedPortfolio() {
                             isDarkMode ? 'text-zinc-300' : 'text-gray-700'
                           }`}
                         >
-                          ConsultAdd
+                          Silentium
                         </span>
                         <span className='text-zinc-500'>•</span>
                         <span className='text-zinc-500'>Pune</span>
@@ -1445,17 +1442,17 @@ export default function EnhancedPortfolio() {
                       {[
                         {
                           icon: Mail,
-                          label: 'sandeepmakwana.work@gmail.com',
-                          href: 'mailto:sandeepmakwana.work@gmail.com',
+                          label: 'yanmad27@gmail.com',
+                          href: 'mailto:yanmad27@gmail.com',
                         },
                         {
                           icon: Phone,
-                          label: '+91 6263216081',
-                          href: 'tel:+916263216081',
+                          label: '+84 328263250',
+                          href: 'tel:+84328263250',
                         },
                         {
                           icon: MapPin,
-                          label: 'Pune, Maharashtra, India',
+                          label: 'HCM, Vietnam',
                           href: null,
                         },
                       ].map((contact, index) => (
@@ -1493,8 +1490,8 @@ export default function EnhancedPortfolio() {
                         {[
                           {
                             icon: Github,
-                            label: 'github.com/isandeepmakwana',
-                            href: 'https://github.com/isandeepMakwana',
+                            label: 'github.com/yanmad27',
+                            href: 'https://github.com/yanmad27',
                           },
                           {
                             icon: Linkedin,
@@ -1503,8 +1500,8 @@ export default function EnhancedPortfolio() {
                           },
                           {
                             icon: Code2,
-                            label: 'leetcode.com/isandeepMakwana',
-                            href: 'https://leetcode.com/isandeepMakwana',
+                            label: 'leetcode.com/yanmad27',
+                            href: 'https://leetcode.com/yanmad27',
                           },
                         ].map((social, index) => (
                           <motion.div
